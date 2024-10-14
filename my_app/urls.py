@@ -99,5 +99,6 @@ urlpatterns = [
      path('block/create/', block_create_view, name='block_create'),
     path('block/list/', block_list_view, name='block_list'),
     path('hyperledger/', hyperledger_view, name='hyperledger_view'),
+    path('decrypted/', views.decrypted_blocks_view, name='decrypted_blocks'),
 
 ]
